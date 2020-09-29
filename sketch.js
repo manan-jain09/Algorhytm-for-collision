@@ -1,6 +1,6 @@
 var fixedRect, movingRect;
 function setup() {
-  createCanvas(1200,800);
+  createCanvas(windowWidth, windowHeight);
   fixedRect = createSprite(400, 200, 50, 80);
   fixedRect.shapeColor = "white";
   //fixedRect.debug = true;
